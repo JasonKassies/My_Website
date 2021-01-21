@@ -2,10 +2,25 @@
 	ProperY: value;
 }*/
 
+body {
+	background-image: url(media/sky.jpg);
+	background-size: cover;
+}
+
 h1{
 	color: red;
 }
 
 h2{
 	color: blue;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+p {
+	background-color: #FFFDD0;
+	border: 5px solid rgb(235, 140, 135);
 }
