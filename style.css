@@ -1,7 +1,8 @@
 /*Selector {
 	ProperY: value;
-}*/
-
+}
+Made by Jason Kassies
+*/
 body {
 	background-image: url(media/sky.jpg);
 	background-size: cover;
@@ -20,7 +21,7 @@ li {
 	display: inline-block;
 }
 
-p {
+.bodyText {
 	background-color: #FFFDD0;
 	border: 5px solid rgb(235, 140, 135);
 }
