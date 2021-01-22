@@ -36,12 +36,23 @@ footer {
 	padding-left: 20px
 }
 
+.abtContainer {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 400px
+}
 
 .bodyText {
-	/* i want the background of the paragraph to end where the img begins */
 	background-color: #FFFDD0;
 	border: 5px solid rgb(235, 140, 135);
 }
 
+.me-cute {
+	/* idk why but this dont work
+	width: 268px; 
+	height: 400px;
+	*/
+
+}
 
 
