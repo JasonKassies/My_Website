@@ -1,5 +1,5 @@
 /*Selector {
-	ProperY: value;
+	Propery: value;
 }
 Made by Jason Kassies
 */
@@ -36,14 +36,6 @@ footer {
 	padding-left: 20px
 }
 
-.div-1 {
-/* i want the background of the paragraph to end where the img begins
-   also why does this not work the same as .bodyText? 
-	
-	background-color: #FFFDD0;
-	border: 5px solid rgb(235, 140, 135);
-*/
-}
 
 .bodyText {
 	/* i want the background of the paragraph to end where the img begins */
