@@ -21,6 +21,15 @@ li {
 	display: inline-block;
 }
 
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: left;
+}
+
 .bodyText {
 	background-color: #FFFDD0;
 	border: 5px solid rgb(235, 140, 135);
