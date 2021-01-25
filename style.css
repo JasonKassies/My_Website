@@ -22,7 +22,6 @@ li {
 }
 
 img {
-	float: right;
 	border: 3px solid pink;
 	margin: 0px 0px 10px 10px; /* i want padding on the bottom and left only */
 }
@@ -39,12 +38,15 @@ footer {
 .abtContainer {
 	display: flex;
 	flex-wrap: nowrap;
+	flex-direction: row;
 	height: 400px
+	
 }
 
 .bodyText {
 	background-color: #FFFDD0;
 	border: 5px solid rgb(235, 140, 135);
+	
 }
 
 .me-cute {
@@ -54,5 +56,4 @@ footer {
 	*/
 
 }
-
 
