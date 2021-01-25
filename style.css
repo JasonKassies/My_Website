@@ -24,6 +24,7 @@ li {
 img {
 	border: 3px solid pink;
 	margin: 0px 0px 10px 10px; /* i want padding on the bottom and left only */
+	box-shadow: 5px 5px 5px;
 }
 
 footer {
@@ -54,6 +55,6 @@ footer {
 	width: 268px; 
 	height: 400px;
 	*/
-
+	box-shadow: 5px 5px 5px;
 }
 
