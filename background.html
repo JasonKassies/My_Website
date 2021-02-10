@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS fun</title>
+	<link rel="stylesheet" type="text/css" href="style-backgroud.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+
+<body id="bg">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Jason</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="About.html">About</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	            Dropdown
+	          </a>
+	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="background.html">CSS Fun</a></li>
+	            <li><a class="dropdown-item" href="#">Another action</a></li>
+	            <li><hr class="dropdown-divider"></li>
+	            <li><a class="dropdown-item" href="#">Something else here</a></li>
+	          </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	        </li>
+	      </ul>
+	        <!-- I dont really want a search bar there isnt enough information to search through
+		      <form class="d-flex">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-outline-success" type="submit">Search</button>
+		      </form>
+		      -->
+	    </div>
+	  </div>
+	</nav><br>
+	
+	<div class="format">	
+		<h1 > Background Generator </h1>
+		<input type="color" class="colour1" name="colour1" value="#ff0000">
+		<input type="color" class="colour2" name="colour2" value="#ffff00">
+		<h2>Current background code</h2>
+		<h3 id="css-code"></h3>
+	</div>
+
+	<br>
+	<footer>
+		<p>Made by Jason Kassies</p>
+	</footer>
+	
+
+	<!-- js filed linked at end of body so that they load last, thus "reducing" load time -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	
+
+	<script type="text/javascript">
+		var css = document.getElementById("css-code");
+		var colour1 = document.querySelector(".colour1");
+		var colour2 = document.querySelector(".colour2");
+		var body = document.getElementById("bg");
+
+		function updateBackground()
+		{
+			body.style.background =
+			"linear-gradient(to right, "
+			+ colour1.value
+			+ ", "
+			+ colour2.value
+			+ ")";
+
+			css.textContent = body.style.background + ";";
+		}
+
+		colour1.addEventListener("input", updateBackground);
+		colour2.addEventListener("input", updateBackground);
+	</script>
+</body>
+</html>
