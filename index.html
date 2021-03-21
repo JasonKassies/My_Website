@@ -1,68 +1,229 @@
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Transitive by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-<head>
-	<title>Jason Kassies</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<head>
+		<title>Jason Kassies</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-597JVS2EEY"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-597JVS2EEY"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-	gtag('config', 'G-597JVS2EEY');
-	</script>
+			gtag('config', 'G-597JVS2EEY');
+		</script>
 
-</head>
+	</head>
+	<body>
+		
+		<!-- Header -->
+			<header> <!-- id="header" class="alt">
 
-
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">Jason</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="About.html">About</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="Resume.html">Resume</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other</a>
-				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <li><a class="dropdown-item" href="background.html">CSS Fun</a></li>
-				  <li><a class="dropdown-item" href="#">Lorem</a></li>
-				  <li><hr class="dropdown-divider">Ipsum</li>
-				  <li><a class="dropdown-item" href="#">Dolor</a></li>
-				</ul>
-			  </li>
-			  
-			</ul>
-			  <!-- I dont really want a search bar there isnt enough information to search through
-				<form class="d-flex">
-				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-				  <button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
+				<div class="logo"><a href="index.html">Home</a></div>
+				<a href="#menu" class="toggle"><span>Menu</span></a>
 				-->
-		  </div>
-		</div>
-	  </nav><br>
-	
-	<footer>
-		<p>Made by Jason Kassies</p>
-	</footer>
+			</header>
 
-	<!-- js filed linked at end of body so that they load last, thus "reducing" load time -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+		<!-- Nav -->
+			<!--
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+			-->
+
+		<!-- Banner -->
+		<!--
+			To use a video as your background, set data-video to the name of your video without			
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+			<section id="banner" data-video="images/banner">
+				<div class="inner">
+					<h1>Welcome</h1>
+					<p>To my online Resume, I built this website using online resources like <br />
+					<a href="https://templated.co/">Templated</a> and <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/">Udemy</a> 
+						as well as an Advancded Diploma from <a href="https://www.conestogac.on.ca/fulltime/software-engineering-technology/courses?id=22386">Conestoga College</a> </p>
+					<a href="#one" class="button special scrolly">Get Started</a>
+				</div>
+			</section>
+
+		<!-- About Me-->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div>
+						<div class="box">
+							<div class="image fit">
+								<img src="images/Jason1.jpg" alt="" />
+							</div>
+							<div class="content">
+								<header class="align-center">
+									<h2>Jason Andrew Kassies</h2>
+									<p>Junior Full Stack developer</p>
+								</header>
+								<hr />
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit nostrum illo amet totam. Cum soluta facere inventore, illum, culpa provident repudiandae et veritatis, recusandae commodi impedit ipsa aut nihil id!</p>
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta saepe libero perspiciatis praesentium ipsam nostrum porro rem provident ad, molestias accusantium quas dolor ducimus autem numquam doloribus. Aspernatur, repudiandae porro!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Links -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<div id="flexgrid">
+						<div>
+							<header>
+								<h3>Github account</h3>
+							</header>
+							<!-- <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu</p> -->
+							<ul class="actions">
+								<li><a href="https://github.com/JasonKassies" class="button alt">My Account</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>LinkedIn profile</h3>
+							</header>
+							<!-- <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed </p> -->
+							<ul class="actions">
+								<li><a href="https://www.linkedin.com/in/jasonkassies0616/" class="button alt">My Profile</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>Resume download</h3>
+							</header>
+							<!-- <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p> -->
+							<ul class="actions">
+								<li><a href="#" class="button alt">this dont work yet</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Work -->
+			<section id="three" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/Jason2.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<h2>Development experience</h2>
+										<p></p>
+									</header>
+									<hr />
+									<p>My first experience with programming was in 2016 in my first year at college, I had to take a C programming class and absolutly loved it.  After completing first year of that program I transfered into Software Engineering and never looked back.</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/Jason3.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<h2>Part time job</h2>
+										<p></p>
+									</header>
+									<hr />
+									<p>I first got my security license in 2019, I got it because I needed a part time job while in school to help pay rent and I figured it would be better than going back to Tim Horton's.  I quickly fell in love with the job, and hope to continue to work as security on weekends and meet new people when COVID allows for it.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="wrapper style3">
+				<div class="inner">
+
+					<header class="align-center">
+						<h2>Morbi interdum mollis sapien</h2>
+						<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+					</header>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper">
+				<div class="inner">
+					<section>
+						<div class="box">
+							<div class="content">
+								<h2 class="align-center">Get in Touch</h2>
+								<hr />
+								<form action="#" method="post">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input name="name" id="name" type="text" placeholder="Name">
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input name="email" id="email" type="email" placeholder="Email">
+									</div>
+									<!--
+									<div class="field">
+										<label for="dept">Department</label>
+										<div class="select-wrapper">
+											<select name="dept" id="dept">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+									</div>
+									-->
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6" placeholder="This doesnt work yet either"></textarea>
+									</div>
+									<ul class="actions align-center">
+										<li><input value="Send Message" class="button special" type="submit"></li>
+									</ul>
+								</form>
+							</div>
+						</div>
+					</section>
+					<div class="copyright">
+						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>. Video <a href="http://coverr.co/">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
