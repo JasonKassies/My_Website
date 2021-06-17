@@ -2,7 +2,7 @@ import React from 'react';
 
 import Title from '../Components/Title'
 import Intro from '../Components/Intro'
-import Buttons from '../Components/BtnBox'
+import BtnBox from '../Components/BtnBox'
 import './App.css';
 import './font-awesome.min.css'
 
@@ -25,7 +25,7 @@ class App extends React.Component {
 					<Intro/>
 				</div>
 				<div>
-					<Buttons/>
+					<BtnBox/>
 				</div>
 
 			</div>
