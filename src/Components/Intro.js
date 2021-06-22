@@ -15,7 +15,7 @@ const intro = () => {
 									<p>Full Stack developer</p>
 								</header>
 								<hr/>
-								<p>My first experience with programming was in 2016 in my first year of college, I had to take a C programming class and I absolutly loved it.  After completing first year of that program, I transfered into Software Engineering and never looked back.  While I was in school, I gained a wide array of knowledge about all kinds of technologies and languages.  I have also discovered a new passion of mine, for always thinking about how the technology I am using is implemented, I find myself always wondering what the code looks like and how it connects to the world around it.  </p>
+								<p>My first experience with programming was in 2016 in my first year of college, I had to take a C programming class and I absolutely loved it.  After completing first year of that program, I transfered into Software Engineering and never looked back.  While I was in school, I gained a wide array of knowledge about all kinds of technologies and languages.  I have also discovered a new passion of mine, for always thinking about how the technology I am using is implemented, I find myself always wondering what the code looks like and how it connects to the world around it.  </p>
 								<p>  </p>
 							</div>
 						</div>
